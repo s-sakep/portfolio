@@ -16,7 +16,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>About Sarah Pakes</title>
+    <title>Sarah Pakes | About</title>
+    <meta
+      name="description"
+      content="Sarah Pakes is a front-end developer based in Oxford, UK"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
@@ -36,13 +40,26 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About me</a>
+              <a class="nav-link" href="about.html" title="About Sarah Pakes"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact-me">Contact</a>
+              <a
+                class="nav-link"
+                href="about.html#contact-me"
+                title="Contact Sarah Pakes"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -61,13 +78,25 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <img src="images/yoga.png" alt="" class="rounded p-2 shadow" />
+          <img
+            src="images/yoga.png"
+            alt="Yoga app homepage"
+            class="about-images rounded p-2 shadow"
+          />
         </div>
         <div class="col-md-4">
-          <img src="images/weather.png" alt="" class="rounded p-2 shadow" />
+          <img
+            src="images/weather.png"
+            alt="Weather app homepage"
+            class="about-images rounded p-2 shadow"
+          />
         </div>
         <div class="col-md-4">
-          <img src="images/yogurt.png" alt="" class="rounded p-2 shadow" />
+          <img
+            src="images/yogurt.png"
+            alt="Yogurt app homepage"
+            class="about-images rounded p-2 shadow"
+          />
         </div>
       </div>
     </div>
@@ -76,8 +105,9 @@
       <h2 class="text-center">📮 Contact me</h2>
       <a
         href="mailto:sarah@googlemail.co.uk"
-        class="email-link"
+        class="email-link mb-5"
         id="contact-me"
+        title="Send me an email"
       >
         sarah@googlemail.com</a
       >
